@@ -1,0 +1,13 @@
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+    - echo 'Build GitLab Pages'
+    # Rename »public« folder
+    - mv web public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
