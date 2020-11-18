@@ -1,5 +1,6 @@
 # Localhost Project Listing
 
+[![Version](https://img.shields.io/packagist/v/pixelbrackets/localhost-project-listing.svg?style=flat-square)](https://packagist.org/packages/pixelbrackets/localhost-project-listing/)
 [![Build Status](https://img.shields.io/gitlab/pipeline/pixelbrackets/localhost-project-listing?style=flat-square)](https://gitlab.com/pixelbrackets/localhost-project-listing/pipelines)
 [![License](https://img.shields.io/badge/license-gpl--2.0--or--later-blue.svg?style=flat-square)](https://spdx.org/licenses/GPL-2.0-or-later.html)
 [![Contribution](https://img.shields.io/badge/contributions_welcome-%F0%9F%94%B0-brightgreen.svg?labelColor=brightgreen&style=flat-square)](https://gitlab.com/pixelbrackets/localhost-project-listing/-/blob/master/CONTRIBUTING.md)
@@ -23,6 +24,8 @@ _⭐ You like this package? Please star it or send a tweet. ⭐_
 - None
 
 ## Installation
+
+Packagist Entry https://packagist.org/packages/pixelbrackets/localhost-project-listing/
 
 - Clone the repository or use a package manager to install the project
 - Point the local webserver to `web` directory

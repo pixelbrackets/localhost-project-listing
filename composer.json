@@ -1,0 +1,6 @@
+{
+    "name": "pixelbrackets/localhost-project-listing",
+    "description": "Static template package to build a nicely readable list of all projects on a local development machine",
+    "type": "project",
+    "license": "GPL-2.0-or-later"
+}
