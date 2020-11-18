@@ -1,0 +1,15 @@
+{
+  "name": "@pixelbrackets/localhost-project-listing",
+  "version": "1.1.0",
+  "description": "Static template package to build a nicely readable list of all projects on a local development machine",
+  "main": "web/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/pixelbrackets/localhost-project-listing.git"
+  },
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://gitlab.com/pixelbrackets/localhost-project-listing#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -27,6 +27,8 @@ _⭐ You like this package? Please star it or send a tweet. ⭐_
 
 Packagist Entry https://packagist.org/packages/pixelbrackets/localhost-project-listing/
 
+NPM Entry https://www.npmjs.com/package/@pixelbrackets/localhost-project-listing/
+
 - Clone the repository or use a package manager to install the project
 - Point the local webserver to `web` directory
 
