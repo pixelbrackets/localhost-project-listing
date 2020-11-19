@@ -15,6 +15,7 @@ _⭐ You like this package? Please star it or send a tweet. ⭐_
 ## Vison
 
 - HTML app, no server side scripts
+- Offline mode, no external requests
 - No automatic detection of ports/projects
   - Active decision which projects to show
 - KISS
