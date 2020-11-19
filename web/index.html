@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Localhost Project Listing">
-  <link rel="stylesheet" href="/assets/css/stylesheet.css?v=1">
+  <link rel="stylesheet" href="assets/css/stylesheet.css?v=1">
 </head>
 <body>
   <div class="navbar navbar-fixed-top">
@@ -22,11 +22,19 @@
       <div class="page-header">
         <h1>localhost</h1>
       </div>
-      <ul class="nav nav-list">
-        <li><a href="/project-a/">Project A</a></li>
-        <li><a href="/project-b/">Project B</a></li>
-        <li><a href="/project-c/">Project C</a></li>
-      </ul>
+
+      <div id="projects">
+        <form class="form-search">
+          <input type="text" class="search input-medium search-query" placeholder="Filter">
+          <button type="button" class="sort btn" data-sort="name">Sort up/down</button>
+        </form>
+
+        <ul class="list nav nav-listlist">
+          <li><a href="/project-a/"><strong class="name">Project A</strong> <span class="label">Inactive</span></a></li>
+          <li><a href="/project-b/"><strong class="name">Project B</strong></a></li>
+          <li><a href="/project-c/"><strong class="name">Project C</strong></a></li>
+        </ul>
+      </div>
     </header>
 
     <footer class="footer muted">
@@ -34,5 +42,7 @@
     </footer>
   </div>
 
+  <script src="assets/js/list.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
