@@ -6,6 +6,8 @@ pages:
     - echo 'Build GitLab Pages'
     # Rename »public« folder
     - mv web public
+    # Change absolute paths
+    - sed -i 's/\/assets/assets/g' web/index.html
   artifacts:
     paths:
       - public
