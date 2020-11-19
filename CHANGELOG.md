@@ -2,6 +2,13 @@
 
 2020-11-19 Dan Untenzu <mail@pixelbrackets.de>
 
+  * 2.0.0
+  * FEATURE New layout based on bootstrap 4
+  * FEATURE Add project filter
+  * FEATURE Move asset files
+
+2020-11-19 Dan Untenzu <mail@pixelbrackets.de>
+
   * 1.2.0
   * FEATURE Add Gitignore & Editorconfig
 
