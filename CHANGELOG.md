@@ -1,5 +1,10 @@
 # Changelog
 
+2020-11-19 Dan Untenzu <mail@pixelbrackets.de>
+
+  * 1.2.0
+  * FEATURE Add Gitignore & Editorconfig
+
 2020-11-18 Dan Untenzu <mail@pixelbrackets.de>
 
   * 1.1.0
