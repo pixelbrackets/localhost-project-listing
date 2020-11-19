@@ -2,6 +2,11 @@
 
 2020-11-19 Dan Untenzu <mail@pixelbrackets.de>
 
+  * 2.1.0
+  * FEATURE Sort projects by name automatically
+
+2020-11-19 Dan Untenzu <mail@pixelbrackets.de>
+
   * 2.0.0
   * FEATURE New layout based on bootstrap 4
   * FEATURE Add project filter

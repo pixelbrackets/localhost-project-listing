@@ -1,6 +1,6 @@
 {
   "name": "@pixelbrackets/localhost-project-listing",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Static template package to build a nicely readable list of all projects on a local development machine",
   "main": "web/index.html",
   "repository": {
