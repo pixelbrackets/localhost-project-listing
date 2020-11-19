@@ -8,36 +8,39 @@
   <meta name="description" content="Localhost Project Listing">
   <link rel="stylesheet" href="assets/css/stylesheet.css?v=1">
 </head>
-<body>
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="/">localhost</a>
-      </div>
+<body class="bg-light">
+  <nav class="navbar navbar-light bg-light mb-4 border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><span>💻</span> localhost</a>
     </div>
-  </div>
+  </nav>
 
   <div class="container">
-    <header class="jumbotron subhead" id="overview">
-      <div class="page-header">
-        <h1>localhost</h1>
+    <div class="p-3 my-3 bg-white rounded shadow-sm">
+      <h1 class="h4 mb-0">Projects</h1>
+    </div>
+
+    <div id="projects" class="p-3 my-3 bg-white rounded shadow-sm">
+      <div class="d-flex pb-4">
+        <div class="flex-grow-1">
+          <input type="text" class="search form-control" placeholder="🔎 Filter">
+        </div>
+        <div class="pl-2">
+          <button type="button" class="sort btn btn-secondary" data-sort="name">Sort up/down</button>
+        </div>
       </div>
 
-      <div id="projects">
-        <form class="form-search">
-          <input type="text" class="search input-medium search-query" placeholder="Filter">
-          <button type="button" class="sort btn" data-sort="name">Sort up/down</button>
-        </form>
-
-        <ul class="list nav nav-listlist">
-          <li><a href="/project-a/"><strong class="name">Project A</strong> <span class="label">Inactive</span></a></li>
-          <li><a href="/project-b/"><strong class="name">Project B</strong></a></li>
-          <li><a href="/project-c/"><strong class="name">Project C</strong></a></li>
-        </ul>
+      <div class="list list-group">
+        <a href="http://localhost:8080/" class="list-group-item list-group-item-action">
+          <span class="name">Changeable Chronometer</span> <span class="badge badge-info">Inactive</span>
+        </a>
+        <a href="http://localhost:8081/" class="list-group-item list-group-item-action"><span class="name">Calm Paneer</span></a>
+        <a href="http://localhost:8082/" class="list-group-item list-group-item-action"><span class="name">Plausible Basilisk</span></a>
+        <a href="http://localhost:8083/" class="list-group-item list-group-item-action"><span class="name">Shadowed Twister</span></a>
       </div>
-    </header>
+    </div>
 
-    <footer class="footer muted">
+    <footer class="text-muted">
       Made with <a href="https://gitlab.com/pixelbrackets/localhost-project-listing">pixelbrackets/localhost-project-listing</a>
     </footer>
   </div>
