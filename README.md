@@ -46,7 +46,9 @@ Pull Requests mirrored to GitLab)
 
 ## Usage
 
-- Edit the `web/index.html` and change the project list as desired
+- Edit the `web/index.html` file and add your project to the list
+- Change the link to any format that suits you best (subdir, ports, aliases, …)
+- 💡 The filter sorts the projects by name automatically
 
 ## License
 
