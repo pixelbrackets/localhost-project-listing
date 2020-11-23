@@ -1,5 +1,11 @@
 # Changelog
 
+2020-11-23 Dan Untenzu <mail@pixelbrackets.de>
+
+  * 2.2.0
+  * FEATURE Add favicon
+  * BUGFIX Remove unused sourcemap from stylesheet
+
 2020-11-19 Dan Untenzu <mail@pixelbrackets.de>
 
   * 2.1.0
